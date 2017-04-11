@@ -6,17 +6,30 @@
     <title>Web Experiments</title>
 </head>
 <header class="header nav-down">
-    <div class="centered-nav">
-    <a class="alignleft" href="https://github.com/nikolaevra">@nikolaevra</a>
-    </div>
+    <nav class="header-nav">
+        <div class="nav-div">
+            <ul class="header-ul alignright">
+                <li class="header-li">
+                    <a href="#" class="header-a">Web Experiments</a>
+                </li>
+                <li class="header-li">
+                    <a href="#" class="header-a">Hackathons</a>
+                </li>
+                <li class="header-li">
+                    <a href="#" class="header-a">Other Projects</a>
+                </li>
+                <li class="header-li">
+                    <a href="#" class="header-a">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 </header>
 <body>
 <div class="content">
     <h1>This is soon going to be a sick website</h1>
-
     <p>This is a website to practice CSS</p>
-
-   </div>
+</div>
 </body>
 <footer>
     <div class="centered-nav">
@@ -27,6 +40,37 @@
 </html>
 
 <style>
+    .header-ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .header-li {
+        float: left;
+    }
+
+    .header-a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+    }
+
+    .header-nav {
+        width: 100%;
+    }
+
+    .nav-div {
+        margin: 0 auto;
+        width: 1000px;
+    }
+
+    .header-a:hover {
+        background-color: #ff7700;
+    }
 
     .header {
         background: black;
