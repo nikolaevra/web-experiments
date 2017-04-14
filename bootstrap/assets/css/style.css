@@ -19,7 +19,7 @@
 }
 
 ::selection {
-    background: #16a085;
+    background: white;
     color: #a4003a;
     text-shadow: none;
 }
@@ -76,22 +76,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default .navbar-brand {
-    color: #1abc9c;
+    color: #FF6D0E;
 }
 
 .navbar-default {
-    background-color: transparent;
     border-color: transparent;
+    background: #2f2f2f;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    color: #1abc9c;
+    color: #FF6D0E;
     background-color: transparent;
-    border-bottom: 2px solid #1abc9c
+    border-bottom: 2px solid #FF6D0E;
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #1abc9c;
+    color: #FF6D0E;
 }
 
 /* ==========================================================================
@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
    ========================================================================== */
 
 #headerwrap {
-    background: url(../img/back.jpg) no-repeat center top;
+    background: url(../img/background.jpg) no-repeat center top;
     margin-top: -70px;
     padding-top: 250px;
     text-align: center;
@@ -160,8 +160,8 @@ h1, h2, h3, h4, h5, h6 {
     color: #0077B5
 }
 
-#social .fa-instagram:hover {
-    color: #cd486b
+#social .fa-envelope-o:hover {
+    color: #ffb994;
 }
 
 #social .fa-tumblr:hover {
@@ -175,7 +175,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #footerwrap p {
-    color: #f2f2f2;
+    color: #FF6D0E;
     margin-left: 10px;
 }
 
@@ -214,13 +214,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #aboutwrap {
-    background: url(../img/about.jpg) no-repeat center top;
-    margin-top: -70px;
+    background: url(../img/about_me.jpg) no-repeat center top;
+    margin-top: 50px;
     padding-top: 250px;
     text-align: center;
     background-attachment: relative;
     background-position: center center;
-    min-height: 550px;
+    min-height: 600px;
     width: 100%;
 
     -webkit-background-size: 100%;
