@@ -68,6 +68,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
+    font-size: 180%;
     color: #4a4a4a;
 }
 
@@ -235,6 +236,16 @@ h1, h2, h3, h4, h5, h6 {
     #workwrap h1 {
         font-size: 34px;
     }
+
+    #aboutwrap {
+        min-height: 0 !important;
+        min-width: 0 !important;
+    }
+
+    #youtube_frame {
+        width: 90%;
+        height: 200px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -262,7 +273,7 @@ h1, h2, h3, h4, h5, h6 {
     background-position: center center;
     min-height: 500px;
     width: 100%;
-    min-width: 400px;
+    min-width: 320px;
 
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
