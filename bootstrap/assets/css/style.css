@@ -134,8 +134,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #headerwrap h1 {
-    color: #FF6D0E;
-    padding-top: 8%;
+    color: white;
     padding-bottom: 20px;
     letter-spacing: 4px;
     font-size: 70px;
@@ -195,7 +194,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #workwrap {
     background: url(../img/hackathon_image.jpg) no-repeat center top;
-    padding-top: 250px;
+    padding-top: 150px;
+    margin-top: 50px;
     text-align: center;
     background-attachment: relative;
     background-position: center center;
@@ -214,7 +214,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #workwrap h1 {
-    color: #ffffff;
+    color: white;
     padding-top: 10px;
     padding-bottom: 20px;
     letter-spacing: 4px;
@@ -224,7 +224,33 @@ h1, h2, h3, h4, h5, h6 {
 
 #workwrap h4 {
     font-weight: 400;
-    color: #ffffff
+    color: #FF6D0E;
+}
+
+@media screen and (max-width: 530px) {
+    #headerwrap h1 {
+        font-size: 45px;
+    }
+
+    #workwrap h1 {
+        font-size: 34px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #headerwrap h1 {
+        font-size: 100px;
+    }
+
+    #workwrap h1 {
+        font-size: 100px;
+    }
+}
+
+@media screen and (min-width: 990px) {
+    #headerwrap h1 {
+        padding-top: 8%;
+    }
 }
 
 #aboutwrap {
@@ -234,8 +260,9 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     background-attachment: relative;
     background-position: center center;
-    min-height: 600px;
+    min-height: 500px;
     width: 100%;
+    min-width: 400px;
 
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
