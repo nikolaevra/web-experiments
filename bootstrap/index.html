@@ -35,6 +35,7 @@
         <nav>
             <ul>
                 <li><a href="#work">Projects</a></li>
+                <li><a href="#analytics">Analytics</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -168,6 +169,61 @@
             <span class="image main">
                 <img class="img-responsive gif" src="assets/img/tryify.gif">
             </span>
+        </article>
+
+        <!-- Analytics -->
+        <article id="analytics">
+            <h2 class="major">Analytics</h2>
+            <h4 class="major" id="titanic">
+                Titanic Challenge from Kaggle <a href="https://nikolaevra.com/titanic/">(live demo)</a>
+                <a target="_blank" href="https://github.com/nikolaevra/titanic_challenge">
+                    <i class="fa fa-github"></i>
+                </a>
+            </h4>
+            <p>
+                Titanic challenge is a Kaggle dataset that gives insights on passengers that were aboard of the ship
+                during the catastrophe. To complete the challenge, I used an SVR kernel to predict if the person would
+                have survived on the ship using features such as
+            </p>
+            <ul>
+                <li>Ticket Class</li>
+                <li>Gender</li>
+                <li>Age</li>
+                <li># of parents/children aboard the ship</li>
+                <li># of sibilings/spouses aboard the ship</li>
+                <li>Passenger Fare</li>
+            </ul>
+            <p>
+                As a result the classifier rated at highest accuracy of 92%, but a few features had to be dropped in
+                order to improve user experience and simplify the survey. As a result, the classifier is now rated at
+                90% accuracy. The classifier is running on an EC2 instance with backend written in Node.js and uses
+                websocket to quickly send responses and display real-time accuracy.
+            </p>
+
+            <! --/Next Item -->
+            <h4 class="major" id="us-mass-shootings">
+                Analysing US mass shooting dataset <a href="https://nikolaevra.com/notebooks/US_Mass_Shootings.html">(live demo)</a>
+                <a target="_blank" href="https://github.com/nikolaevra/us-mass-shootings-notebook">
+                    <i class="fa fa-github"></i>
+                </a>
+            </h4>
+            <p>
+                A jupyter notebook with detailed analytics of the data shared on Kaggle about mass shootings in the
+                United States. Analytics include general trends in variables such as:
+            </p>
+            <ul>
+                <li>Race</li>
+                <li>Mental Health Issues</li>
+                <li>Fatalities</li>
+                <li>Injured</li>
+                <li>Gender</li>
+                <li>Location</li>
+            </ul>
+            <p>
+                In addition, more advanced analytics of key words used in each case summary and an interactive map of
+                the locations where shootings occurred in the United States. Please check out the live demo using the
+                link in the title.
+            </p>
         </article>
 
         <!-- About -->
