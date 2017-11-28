@@ -1,3 +1,13 @@
+/*Images --------------------------------------------------------------*/
+.img-100px {
+    width: 100% !important;
+}
+
+.padded-content {
+    width: 100%;
+    margin: 0 10px 20px 0;
+}
+
 /*Emojis --------------------------------------------------------------*/
 @-webkit-keyframes typing { from { width: 0; } }
 @-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
@@ -7,7 +17,7 @@
     font-family: 'SF-Pro-Text-Regular', sans-serif;
     border-right: .1em solid black;
     width: 16.5em;
-    width: 15ch;
+    width: 21ch;
     margin-right: 1em;
     white-space: nowrap;
     overflow: hidden;
