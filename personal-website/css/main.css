@@ -25,6 +25,19 @@
     blink-caret .5s step-end infinite alternate;
 }
 
+.printing-text-short {
+    font-size: 3em !important;
+    font-family: 'SF-Pro-Text-Regular', sans-serif;
+    border-right: .1em solid black;
+    width: 16.5em;
+    width: 12ch;
+    margin-right: 1em;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: typing 2s steps(21, end),
+    blink-caret .5s step-end infinite alternate;
+}
+
 /*Emojis --------------------------------------------------------------*/
 .em {
     margin-bottom: 8px;
