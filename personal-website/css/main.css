@@ -8,6 +8,12 @@
     margin: 0 10px 20px 0;
 }
 
+.portrait {
+    position: absolute;
+    right: 0px;
+    top: 20%;
+}
+
 /*Emojis --------------------------------------------------------------*/
 @-webkit-keyframes typing { from { width: 0; } }
 @-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
@@ -134,12 +140,12 @@
 }
 
 .underline {
-  border-bottom: 1px solid #ffdd00;
+  border-bottom: 1px solid #6adbff;
   padding-bottom: 2px;
 }
 
 a.underline:hover {
-  color: #ffdd00 !important;
+  color: #6adbff !important;
 }
 
 a {
@@ -167,7 +173,7 @@ a.highlight {
 	bottom:-4px;
 	content:"";
 	display:block;
-	background-color: #ffdd00;
+	background-color: #6adbff;
 	z-index:-1;
 	opacity: 1;
 	-webkit-transition: height 0.5s;
@@ -179,8 +185,8 @@ a.highlight:hover{
 }
 
 a.highlight:hover:before {
-	color: #ffdd00;
-	background-color: #ffdd00;
+	color: #6adbff;
+	background-color: #6adbff;
     height:25px;
 }
 
