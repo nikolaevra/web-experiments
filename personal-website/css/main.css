@@ -11,7 +11,13 @@
 .portrait {
     position: absolute;
     right: 0px;
-    top: 20%;
+    top: 11%;
+}
+
+.right-portrait {
+    float:right;
+    vertical-align: middle;
+    width: 53%;
 }
 
 /*Emojis --------------------------------------------------------------*/
@@ -97,7 +103,7 @@
 .primary {
     font-family: 'SF-Pro-Text-Regular', sans-serif;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 20px;
     line-height:30px;
     color: #333;
 }
@@ -105,7 +111,7 @@
 .secondary {
     font-family: 'SF-Pro-Text-Regular', sans-serif;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 17px;
     line-height:30px;
     color: #999;
 }

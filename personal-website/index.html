@@ -19,6 +19,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="https://use.fontawesome.com/124f5f4c35.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/main.css"  >
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400|Martel:300|Montserrat" rel="stylesheet">
@@ -29,12 +30,13 @@
 
 <body class="slant">
 
-<div class="portrait">
-    <img src="img/portrait1.png" width="450em" alt="photo">
-</div>
-
 <div id="page-wrap">
     <div class="clearfix">
+
+        <div class="portrait">
+            <img src="img/portrait1.png" class="right-portrait" alt="photo">
+        </div>
+
         <div class="col-xs-12 col-sm-6 col-m-6 col-xs-offset-0 col-sm-offset-1" style="padding-top: 100px;">
             <h1 class="">Ruslan Nikolaev</h1>
             <p class="header pad-s"></p>
@@ -190,15 +192,17 @@
     </div>
     <div class="clearfix pad-m">
         <a href="https://www.fruct.org/publications/abstract22/files/Nik.pdf" target="_blank">
-            <div class="col-md-12 pad-s hover-up">
+            <div class="col-md-12 pad-s">
                 <div class="box-shadow">
                     <div class="project-box">
-                        <p>
+                        <p class="body">
                             <span class="primary">Software Systems in Hyperloop Pod</span>
                             <br>
                             <span class="secondary">
-                                Overview of the Software System team Waterloop has developed to control the pod during the high-speed launch in the
-                                in the annual SpaceX Hyperloop Pod competition.
+                                Overview of the Software System developed to control the pod during the high-speed launch in the
+                                in the annual SpaceX Hyperloop Pod competition. Reliance of redundant multi-nodal command execution
+                                with RAFT consensus algorithm and an on-board CAN network to enable modular design and data
+                                collection from Pod's sensors.
                             </span>
                         </p>
                     </div>
@@ -215,26 +219,37 @@
     </div>
     <div class="clearfix pad-m">
         <a href="amazon-go.html">
-            <div class="col-md-3 pad-s hover-up">
+            <div class="col-md-4 pad-s">
                 <div class="box-shadow">
-                    <img src="img/ez-shop.png" alt="ezshop" style="width:100%;height:auto;">
                     <div class="project-box">
-                        <p><span class="primary">Amazon Go @RuHacks</span>
-                            <br><span class="secondary">Proof-of-concept Amazon Go store in 48 hrs.</span></p>
+                        <p class="body">
+                            <span class="primary">
+                                Amazon Go @RuHacks
+                            </span>
+                            <br>
+                            <span class="body pad-s">
+                                Winners of the 2017 RUHacks Hackathon with a Proof-of-concept Amazon Go store built in
+                                36 hrs. Read our story on
+                                <a class="highlight" target="_blank" href="https://medium.freecodecamp.org/how-we-recreated-amazon-go-in-36-hours-e32a4101d5f0">Medium</a>
+                            </span>
+                        </p>
                     </div>
                 </div>
             </div>
         </a>
         <a href="how-much.html">
-            <div class="col-md-3 pad-s hover-up">
+            <div class="col-md-4 pad-s">
                 <div class="box-shadow">
-                    <img src="img/how-much.png" alt="how-much" style="width:100%;height:auto;">
+                    <!--<img src="img/how-much.png" alt="how-much" style="width:100%;height:auto;">-->
                     <div class="project-box">
-                        <p>
-                            <span class="primary">How Much @QHacks</span>
+                        <p class="body">
+                            <span class="primary">
+                                How Much @QHacks
+                            </span>
                             <br>
-                            <span class="secondary">
-                                Solving optimization problem to find best meal for the money near the user; packaged into a mobile app.
+                            <span class="body pad-s">
+                                Solving optimization problem to find best meal for the money near the user. Tomato API
+                                integration for restaurant menu listing and Price Discrimination Algo. All packaged into a mobile app.
                             </span>
                         </p>
                     </div>
@@ -242,54 +257,68 @@
             </div>
         </a>
         <a href="tryify.html">
-            <div class="col-md-3 pad-s hover-up">
+            <div class="col-md-4 pad-s">
                 <div class="box-shadow">
-                    <img src="img/tryify.png" alt="tryify" style="width:100%;height:auto;">
+                    <!--<img src="img/tryify.png" alt="tryify" style="width:100%;height:auto;">-->
                     <div class="project-box">
                         <p>
-                            <span class="primary">Tryify @Decode Hackathon</span>
+                            <span class="primary">
+                                Tryify @Decode Hackathon
+                            </span>
                             <br>
-                            <span class="secondary">
-                                In partnership with Shopify, social media like shopping of products sold by Shopify merchants?
+                            <span class="body pad-s">
+                                In partnership with Shopify, instagram-feed-like shopping experience Shopify merchants's
+                                products. Ruby backend with intelligent product search and Shopify checkout API integrations.
                             </span>
                         </p>
                     </div>
                 </div>
             </div>
         </a>
-        <div class="col-md-3 pad-s hover-up">
+
+    <!--</div><div class="clearfix pad-m">-->
+
+    <a target="_blank" href="https://www.npmjs.com/package/medium-get-latest-posts">
+        <div class="col-md-4 pad-s">
             <div class="box-shadow">
-                <div class="overlay"><p class="header vh-center">Coming soon.</p></div>
-                <img src="img/notepal.png" alt="notepal" style="width:100%;height:auto;">
+                <!--<img src="img/npm-logo.png" alt="npm" style="width:100%;height:auto;">-->
                 <div class="project-box">
                     <p>
-                        <span class="primary">Notepal: Collaborative note-taking in class</span>
-                        <br><span class="secondary">Developing an algorithm for smooth file merging and building a web application around it</span>
+                        <span class="primary">
+                            Medium API package
+                        </span>
+                        <br>
+                        <span class="body pad-s">
+                                Medium's API to get all posts made by a user or a publisher. Over 100 downloads.
+                        </span>
                     </p>
                 </div>
             </div>
         </div>
+    </a>
+    <!--<a>-->
+        <!--<div class="col-md-4 pad-s">-->
+            <!--<div class="box-shadow">-->
+                <!--&lt;!&ndash;<div class="overlay">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<p class="header vh-center">Coming soon.</p>&ndash;&gt;-->
+                <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                <!--&lt;!&ndash;<img src="img/notepal.png" alt="notepal" style="width:100%;height:auto;">&ndash;&gt;-->
+                <!--<div class="project-box">-->
+                    <!--<p>-->
+                        <!--<span class="primary">-->
+                            <!--Notepal: Collaborative note-taking in class-->
+                        <!--</span>-->
+                        <!--<br>-->
+                        <!--<span class="body pad-s">-->
+                            <!--Developing an algorithm for smooth text file merging and building a web application-->
+                            <!--around it to let students collaboratively take notes in classes.-->
+                        <!--</span>-->
+                    <!--</p>-->
+                <!--</div>-->
+            <!--</div>-->
         <!--</div>-->
-
-        <!--<div class="clearfix pad-m">-->
-
-        <a target="_blank" href="https://www.npmjs.com/package/medium-get-latest-posts">
-            <div class="col-md-3 pad-s hover-up">
-                <div class="box-shadow">
-                    <img src="img/npm-logo.png" alt="npm" style="width:100%;height:auto;">
-                    <div class="project-box">
-                        <p><span class="primary">Medium API package</span>
-                            <br>
-                            <span class="secondary">
-                                Medium doesn't have an API to get posts made by a user or a publisher, so I made one.
-                            </span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </a>
-
-    </div>
+    <!--</a>-->
+</div>
 
     <div class="clearfix">
         <div class="col-xs-12 col-sm-6 col-m-6 col-xs-offset-0 col-sm-offset-1">
@@ -297,15 +326,31 @@
         </div>
     </div>
     <div class="clearfix pad-m">
-        <a href="https://nikolaevra.com/notebooks/mass_shootings_analysis.html">
-            <div class="col-md-3 pad-s hover-up">
+        <a href="https://towardsdatascience.com/generating-drake-rap-lyrics-using-language-models-and-lstms-8725d71b1b12">
+            <div class="col-md-4 pad-s">
                 <div class="box-shadow">
-                    <img src="img/folder.png" style="width:100%;height:auto;">
+                    <!--<img src="img/drake-lyrics.png" style="width:100%;height:auto;">-->
+                    <div class="project-box">
+                        <p>
+                            <span class="primary">Drake Lyric Generation</span>
+                            <br>
+                            <span class="body pad-s">
+                                Generating Drake Style Lyrics using LSTMs and Language Models. Over 20 forks on GitHub and 5,000 reads on Medium.
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a href="https://nikolaevra.com/notebooks/mass_shootings_analysis.html">
+            <div class="col-md-4 pad-s">
+                <div class="box-shadow">
+                    <!--<img src="img/folder.png" style="width:100%;height:auto;">-->
                     <div class="project-box">
                         <p>
                             <span class="primary">US Mass Shootings Analytics</span>
                             <br>
-                            <span class="secondary">
+                            <span class="body pad-s">
                                 Extensive visualization and statistical analysis of historical data on Mass Shootings in US.
                             </span>
                         </p>
@@ -314,33 +359,18 @@
             </div>
         </a>
 
-        <a href="https://towardsdatascience.com/generating-drake-rap-lyrics-using-language-models-and-lstms-8725d71b1b12">
-            <div class="col-md-3 pad-s hover-up">
-                <div class="box-shadow">
-                    <img src="img/drake-lyrics.png" style="width:100%;height:auto;">
-                    <div class="project-box">
-                        <p>
-                            <span class="primary">Drake Lyric Generation</span>
-                            <br>
-                            <span class="secondary">
-                                Generating Drake Style Lyrics using LSTMs and Language Models.
-                            </span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </a>
 
         <a href="https://github.com/nikolaevra/face-tracking">
-            <div class="col-md-3 pad-s hover-up">
+            <div class="col-md-4 pad-s">
                 <div class="box-shadow">
-                    <img src="img/face_tracking.png" style="width:100%;height:auto;">
+                    <!--<img src="img/face_tracking.png" style="width:100%;height:auto;">-->
                     <div class="project-box">
                         <p>
                             <span class="primary">Driver Face + Eye Tracking</span>
                             <br>
-                            <span class="secondary">
-                                YOLO and Haar Cascades face and eye tracking Computer Vision Algorithm. Plus, open/closed eyes Deep Net classifier.
+                            <span class="body pad-s">
+                                YOLO and Haar Cascades face and eye detection and tracking CV pipeline.
+                                Open/closed eyes Deep Net classifier, critical component for safe AV testing.
                             </span>
                         </p>
                     </div>
@@ -349,12 +379,12 @@
         </a>
 
         <a target="_blank" href="https://github.com/nikolaevra/mlutils">
-            <div class="col-md-3 pad-s hover-up">
+            <div class="col-md-4 pad-s">
                 <div class="box-shadow">
-                    <img src="img/mlutils.PNG" alt="ezshop" style="width:100%;height:auto;">
+                    <!--<img src="img/mlutils.PNG" alt="ezshop" style="width:100%;height:auto;">-->
                     <div class="project-box">
                         <p><span class="primary">ML-Utils library</span>
-                            <br><span class="secondary">
+                            <br><span class="body pad-s">
                                 Machine Learning utilities library for Python, simple image labelling web-tool
                             </span></p>
                     </div>
@@ -366,13 +396,14 @@
         <!--<div class="clearfix pad-m">-->
 
         <a target="_blank" href="https://github.com/nikolaevra/snack-classifier">
-            <div class="col-md-3 pad-s hover-up">
+            <div class="col-md-4 pad-s">
                 <div class="box-shadow">
-                    <img src="img/snacks.PNG" alt="snacks" style="width:100%;height:auto;">
+                    <!--<img src="img/snacks.PNG" alt="snacks" style="width:100%;height:auto;">-->
                     <div class="project-box">
                         <p><span class="primary">Snack Classifier</span>
-                            <br><span class="secondary">
-                                Solving problem of uneducated trips to the snack shelf in the office using IoT and Computer Vision
+                            <br><span class="body pad-s">
+                                Solving problem of uneducated trips to the snack shelf in the office using IoT and
+                                Computer Vision. CNN for snack classification.
                             </span></p>
                     </div>
                 </div>
